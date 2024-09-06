@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import hero from "@/public/images/Hero-BackGround-1.jpg";
-import TPhones from "@/public/images/Two-Phones.png";
+import TPhones from "@/public/images/herepic.png";
 import Clock from "@/public/images/Clock.png";
 import Illustration from "@/public/images/income.png";
 
@@ -25,8 +25,8 @@ export default function Hero() {
               <Image
                 src={TPhones}
                 alt="two phones"
-                width={600}
-                height={600}
+                width={500}
+                height={500}
                 className="w-full h-full"
               />
             </div>

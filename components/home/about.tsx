@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Laptop from "@/public/images/Laptop-Phone1.png";
+import Laptop from "@/public/images/loptopui.png";
 
 const About = () => {
   return (

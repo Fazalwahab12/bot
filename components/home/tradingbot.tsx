@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bgimage from "@/public/images/Section-3-Background.jpg";
-import phone from "@/public/images/Phone-932x1024.png";
+import phone from "@/public/images/herepic.png";
 
 export default function TradingBot() {
   return (

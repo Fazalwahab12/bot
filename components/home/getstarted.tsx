@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bgform from "@/public/images/bg-form.jpg";
-import phone from "@/public/images/mobile-img.png";
+import phone from "@/public/images/loginpic.png";
 
 const GetStarted = () => {
   return (
@@ -31,7 +31,13 @@ const GetStarted = () => {
       </div>
 
       <div className="flex justify-center lg:items-end w-full  lg:w-1/2 ">
-        <Image src={phone} alt="phone" className="ml-10 " />
+        <Image
+          src={phone}
+          width={600}
+          height={600}
+          alt="phone"
+          className="ml-10 "
+        />
       </div>
     </div>
   );

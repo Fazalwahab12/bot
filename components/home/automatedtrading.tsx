@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import bg from "@/public/images/2.jpg";
-import g1 from "@/public/images/g1.png";
-import g2 from "@/public/images/g2.png";
-import g3 from "@/public/images/g3.png";
-import g4 from "@/public/images/g4.png";
+import g1 from "@/public/images/Clock-removebg.png";
+import g2 from "@/public/images/Clock-removebg.png";
+import g3 from "@/public/images/Clock-removebg.png";
+import g4 from "@/public/images/Clock-removebg.png";
 
 const list = [
   {
@@ -71,10 +71,12 @@ const AutomatedTrading = () => {
           {list.map((value, iteration) => (
             <div
               key={iteration}
-              className="flex flex-col items-center md:items-start justify-center space-y-4 py-4 px-4"
+              className="flex flex-col items-center md:items-start justify-center  px-4"
             >
-              <Image src={value.icon} alt="icon" width={50} height={50} />
-              <div className="text-lg font-semibold">{value.title}</div>
+              <Image src={value.icon} alt="icon" width={70} height={70} />
+              <div className="text-lg font-semibold text-blue-600">
+                {value.title}
+              </div>
               <div className="text-center md:text-start tracking-wide leading-6 font-light text-sm">
                 {value.text}
               </div>
